@@ -1,0 +1,80 @@
+[v-cloak] {
+  display: none;
+}
+#app {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 14px;
+}
+#app .header {
+  font-size: 2em;
+  padding: 10px 25px 15px 25px;
+}
+#app .container {
+  outline: none;
+}
+#app :not(img) {
+  box-sizing: inherit;
+}
+#app .content {
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#app .content .years {
+  padding: 30px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-shadow: 0 1px 6px #e5e5e5;
+  -webkit-overflow-scrolling: 'touch';
+}
+#app .content .year {
+  display: block;
+}
+#app .content .year .activities {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+#app .content .year .activities .content-date,
+#app .content .year .activities .content-title {
+  display: inline-flex;
+}
+#app .content .year .activities .content-date {
+  text-align: center;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin-right: 0.4em;
+  width: 80px;
+}
+#app .content .year .activities .content-title {
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  line-height: 1.2;
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+  min-width: 0;
+  margin: 0;
+  border-left: 4px solid;
+  margin-top: 0px;
+}
+#app .content .year .activities .content-title a {
+  display: block;
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0.4em;
+  height: 100%;
+}
